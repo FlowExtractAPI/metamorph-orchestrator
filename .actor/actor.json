@@ -1,0 +1,11 @@
+{
+  "actorSpecification": 1,
+  "name": "metamorph-demo",
+  "title": "Metamorph Demo Actor 🔄",
+  "description": "Educational Actor demonstrating the metamorph operation. Takes a website URL, analyzes it, then transforms into dz_omar/universal-downloader with custom configuration based on the analysis.",
+  "version": "1.0",
+  "minMemoryMbytes": 128,
+  "maxMemoryMbytes": 256,
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile"
+}

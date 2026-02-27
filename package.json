@@ -1,0 +1,34 @@
+{
+    "name": "metamorph-demo-actor",
+    "version": "1.0",
+    "type": "module",
+    "description": "Demonstrates Apify Actor metamorph operation.",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.4.2"
+    },
+    "scripts": {
+        "start": "node ./src/main.js",
+        "test": "echo \"Error: oops, the Actor has no tests yet, sad!\" && exit 1"
+    },
+    "keywords": [
+    "apify",
+    "metamorph",
+    "demo",
+    "web-scraping"
+    ],
+	"author": "@DZ_45Omar",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DZ-ABDLHAKIM/metamorph-orchestrator"
+	},
+    "files": [
+		"src/**/*",
+		".actor/actor.json",
+		".actor/input_schema.json",
+		"README.md"
+	]
+}

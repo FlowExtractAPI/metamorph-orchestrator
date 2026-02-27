@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "title": "Metamorph Test Input",
+  "description": "Test the metamorph operation with universal-downloader",
+  "schemaVersion": 1,
+  "properties": {
+    "input": {
+      "title": "URL to Download",
+      "type": "array",
+      "description": "URL that will be passed to universal-downloader after metamorph",
+      "prefill": [
+        { "url": "http://example.com" },
+        { "url": "http://example.com/some-path" }
+      ],
+      "editor": "requestListSources"
+    },
+    "delaySeconds": {
+      "type": "integer",
+      "title": "Delay Between Requests",
+      "description": "Fixed delay in seconds between processing each URL",
+      "default": 2,
+      "minimum": 0,
+      "maximum": 10,
+      "unit": "seconds"
+    }
+  },
+  "required": []
+}
